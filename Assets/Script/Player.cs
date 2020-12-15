@@ -7,10 +7,12 @@ public class Player : MonoBehaviour {
 
 	[SerializeField] float runSpeed = 5f;
 	Rigidbody2D playerRigidBody;
+	Animator playerAnimator;
 
 	// Use this for initialization
 	void Start () {
 		playerRigidBody = GetComponent<Rigidbody2D> ();
+		playerAnimator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -23,6 +25,9 @@ public class Player : MonoBehaviour {
 		float inputValue = CrossPlatformInputManager.GetAxis("Horizontal");
 		Vector2 playerVelocity = new Vector2 (inputValue * runSpeed, playerRigidBody.velocity.y);
 		playerRigidBody.velocity = playerVelocity;
+
+		bool isPlayerMoving = Mathf.Abs (playerRigidBody.velocity.x) > 0;
+		playerAnimator.SetBool ("isWalking", isPlayerMoving);
 	}
 
 	private void FlipSprite() {
