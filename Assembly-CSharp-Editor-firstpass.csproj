@@ -649,6 +649,9 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Monetization">
  <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
  </Reference>
@@ -697,6 +700,9 @@
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
@@ -717,12 +723,6 @@
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
  <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
