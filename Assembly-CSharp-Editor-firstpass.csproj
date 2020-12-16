@@ -718,6 +718,12 @@
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
  <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>/home/kmranrg/Documents/kan_work/SaveKitty/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
