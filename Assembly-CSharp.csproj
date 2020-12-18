@@ -69,6 +69,7 @@
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\Script\Collectables.cs" />
+     <Compile Include="Assets\Script\EnemyMovement.cs" />
      <Compile Include="Assets\Script\GameSession.cs" />
      <Compile Include="Assets\Script\Gate.cs" />
      <Compile Include="Assets\Script\Player.cs" />
