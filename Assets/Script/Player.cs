@@ -10,12 +10,14 @@ public class Player : MonoBehaviour {
 	Rigidbody2D playerRigidBody;
 	Animator playerAnimator;
 	CapsuleCollider2D feetCollider;
+	BoxCollider2D bodyCollider;
 
 	// Use this for initialization
 	void Start () {
 		playerRigidBody = GetComponent<Rigidbody2D> ();
 		playerAnimator = GetComponent<Animator> ();
 		feetCollider = GetComponent<CapsuleCollider2D> ();
+		bodyCollider = GetComponent<BoxCollider2D>();
 	}
 	
 	// Update is called once per frame
@@ -23,6 +25,7 @@ public class Player : MonoBehaviour {
 		Run();
 		FlipSprite();
 		Jump();
+		Hurt();
 	}
 
 	private void Run() {
@@ -51,6 +54,12 @@ public class Player : MonoBehaviour {
 		bool isPlayerMoving = Mathf.Abs (playerRigidBody.velocity.x) > 0;
 		if (isPlayerMoving) {
 			transform.localScale = new Vector2 (Mathf.Sign (playerRigidBody.velocity.x), 1f);
+		}
+	}
+
+	private void Hurt() {
+		if (bodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy"))) {
+			FindObjectOfType<GameSession>().ProcessPlayerDeath();
 		}
 	}
 }
