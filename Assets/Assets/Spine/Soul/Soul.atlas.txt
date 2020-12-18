@@ -1,0 +1,118 @@
+
+Soul.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Path
+  rotate: false
+  xy: 419, 125
+  size: 20, 40
+  orig: 20, 40
+  offset: 0, 0
+  index: -1
+Path 1
+  rotate: false
+  xy: 386, 66
+  size: 37, 46
+  orig: 37, 46
+  offset: 0, 0
+  index: -1
+Path 2
+  rotate: false
+  xy: 478, 133
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+Path 3
+  rotate: true
+  xy: 330, 71
+  size: 41, 54
+  orig: 41, 54
+  offset: 0, 0
+  index: -1
+Path 4
+  rotate: false
+  xy: 231, 60
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+Path 5
+  rotate: false
+  xy: 441, 128
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+Soul 1
+  rotate: false
+  xy: 160, 90
+  size: 83, 164
+  orig: 83, 164
+  offset: 0, 0
+  index: -1
+Soul 10
+  rotate: false
+  xy: 440, 169
+  size: 52, 85
+  orig: 52, 85
+  offset: 0, 0
+  index: -1
+Soul 2
+  rotate: false
+  xy: 2, 80
+  size: 77, 174
+  orig: 77, 174
+  offset: 0, 0
+  index: -1
+Soul 3
+  rotate: false
+  xy: 81, 80
+  size: 77, 174
+  orig: 77, 174
+  offset: 0, 0
+  index: -1
+Soul 4
+  rotate: true
+  xy: 2, 2
+  size: 76, 174
+  orig: 76, 174
+  offset: 0, 0
+  index: -1
+Soul 5
+  rotate: false
+  xy: 245, 92
+  size: 83, 162
+  orig: 83, 162
+  offset: 0, 0
+  index: -1
+Soul 6
+  rotate: false
+  xy: 330, 167
+  size: 55, 87
+  orig: 55, 87
+  offset: 0, 0
+  index: -1
+Soul 7
+  rotate: false
+  xy: 387, 167
+  size: 51, 87
+  orig: 51, 87
+  offset: 0, 0
+  index: -1
+Soul 8
+  rotate: true
+  xy: 330, 114
+  size: 51, 87
+  orig: 51, 87
+  offset: 0, 0
+  index: -1
+Soul 9
+  rotate: false
+  xy: 178, 3
+  size: 51, 85
+  orig: 51, 85
+  offset: 0, 0
+  index: -1
