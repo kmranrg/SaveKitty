@@ -8,6 +8,16 @@ public class GameSession : MonoBehaviour
     [SerializeField] int spiritScore = 0;
     [SerializeField] Text scoreText;
 
+    void Awake()
+    {
+        int numGameSessions = FindObjectsOfType<GameSession>().Length;
+        if (numGameSessions > 1) {
+            Destroy(gameObject);
+        } else {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
