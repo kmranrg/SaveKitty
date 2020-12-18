@@ -10,6 +10,7 @@ public class SceneLoader : MonoBehaviour
     public void LoadNextScene() {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene( currentSceneIndex + 1 );
+        FindObjectOfType<AudioManager>().Play("ChangeSceneSound");
     }
 
     public void FadeAnimation() {

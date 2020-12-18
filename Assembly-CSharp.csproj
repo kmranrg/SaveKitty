@@ -72,8 +72,10 @@
      <Compile Include="Assets\Script\EnemyMovement.cs" />
      <Compile Include="Assets\Script\GameSession.cs" />
      <Compile Include="Assets\Script\Gate.cs" />
+     <Compile Include="Assets\Script\MouseHover.cs" />
      <Compile Include="Assets\Script\Player.cs" />
      <Compile Include="Assets\Script\SceneLoader.cs" />
+     <Compile Include="Assets\Script\SplashScreen.cs" />
      <Compile Include="Assets\Spine Examples\Other Examples\Animation Tester\SpineAnimationTesterTool.cs" />
      <Compile Include="Assets\Spine Examples\Scripts\AttackSpineboy.cs" />
      <Compile Include="Assets\Spine Examples\Scripts\DataAssetsFromExportsExample.cs" />
