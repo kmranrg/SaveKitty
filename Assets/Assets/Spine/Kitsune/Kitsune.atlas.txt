@@ -1,0 +1,202 @@
+
+Kitsune.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Back
+  rotate: false
+  xy: 319, 305
+  size: 263, 198
+  orig: 263, 198
+  offset: 0, 0
+  index: -1
+Back Left Leg 1
+  rotate: true
+  xy: 1367, 340
+  size: 163, 178
+  orig: 163, 178
+  offset: 0, 0
+  index: -1
+Back Left Leg 2
+  rotate: true
+  xy: 1913, 381
+  size: 48, 116
+  orig: 48, 116
+  offset: 0, 0
+  index: -1
+Back Left Leg 3
+  rotate: false
+  xy: 1272, 344
+  size: 53, 27
+  orig: 53, 27
+  offset: 0, 0
+  index: -1
+Back Right Leg 1
+  rotate: true
+  xy: 1547, 340
+  size: 163, 178
+  orig: 163, 178
+  offset: 0, 0
+  index: -1
+Back Right Leg 2
+  rotate: true
+  xy: 1907, 331
+  size: 48, 116
+  orig: 48, 116
+  offset: 0, 0
+  index: -1
+Back Right Leg 3
+  rotate: false
+  xy: 1907, 302
+  size: 53, 27
+  orig: 53, 27
+  offset: 0, 0
+  index: -1
+Chest
+  rotate: false
+  xy: 2, 2
+  size: 268, 238
+  orig: 268, 238
+  offset: 0, 0
+  index: -1
+Front Left Leg 1
+  rotate: true
+  xy: 319, 210
+  size: 93, 178
+  orig: 93, 178
+  offset: 0, 0
+  index: -1
+Front Left Leg 2
+  rotate: true
+  xy: 1173, 334
+  size: 37, 97
+  orig: 37, 97
+  offset: 0, 0
+  index: -1
+Front Left Leg 3
+  rotate: false
+  xy: 499, 215
+  size: 38, 49
+  orig: 38, 49
+  offset: 0, 0
+  index: -1
+Front Left Leg 4
+  rotate: false
+  xy: 272, 211
+  size: 44, 29
+  orig: 44, 29
+  offset: 0, 0
+  index: -1
+Front Right Leg 1
+  rotate: true
+  xy: 1727, 307
+  size: 93, 178
+  orig: 93, 178
+  offset: 0, 0
+  index: -1
+Front Right Leg 2
+  rotate: true
+  xy: 499, 266
+  size: 37, 97
+  orig: 37, 97
+  offset: 0, 0
+  index: -1
+Front Right Leg 3
+  rotate: false
+  xy: 539, 215
+  size: 38, 49
+  orig: 38, 49
+  offset: 0, 0
+  index: -1
+Front Right Leg 4
+  rotate: false
+  xy: 1962, 300
+  size: 44, 29
+  orig: 44, 29
+  offset: 0, 0
+  index: -1
+Fur
+  rotate: false
+  xy: 584, 326
+  size: 181, 177
+  orig: 181, 177
+  offset: 0, 0
+  index: -1
+Heard
+  rotate: false
+  xy: 2, 242
+  size: 315, 261
+  orig: 315, 261
+  offset: 0, 0
+  index: -1
+Left Ear
+  rotate: true
+  xy: 1727, 402
+  size: 101, 184
+  orig: 101, 184
+  offset: 0, 0
+  index: -1
+Left Ear Fur
+  rotate: true
+  xy: 272, 5
+  size: 91, 143
+  orig: 91, 143
+  offset: 0, 0
+  index: -1
+Right Ear
+  rotate: true
+  xy: 1913, 431
+  size: 72, 115
+  orig: 72, 115
+  offset: 0, 0
+  index: -1
+Right Ear Fur
+  rotate: true
+  xy: 957, 308
+  size: 69, 150
+  orig: 69, 150
+  offset: 0, 0
+  index: -1
+Tail 1
+  rotate: true
+  xy: 429, 100
+  size: 108, 79
+  orig: 108, 79
+  offset: 0, 0
+  index: -1
+Tail 2
+  rotate: false
+  xy: 272, 98
+  size: 155, 110
+  orig: 155, 110
+  offset: 0, 0
+  index: -1
+Tail 3
+  rotate: true
+  xy: 767, 338
+  size: 165, 188
+  orig: 165, 188
+  offset: 0, 0
+  index: -1
+Tail 4
+  rotate: true
+  xy: 1183, 373
+  size: 130, 182
+  orig: 130, 182
+  offset: 0, 0
+  index: -1
+Tail 5
+  rotate: false
+  xy: 957, 379
+  size: 224, 124
+  orig: 224, 124
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 1109, 311
+  size: 62, 66
+  orig: 62, 66
+  offset: 0, 0
+  index: -1

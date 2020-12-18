@@ -1,0 +1,223 @@
+
+Kappa-sketch.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Belly
+  rotate: true
+  xy: 653, 262
+  size: 241, 296
+  orig: 241, 296
+  offset: 0, 0
+  index: -1
+Chest
+  rotate: false
+  xy: 380, 222
+  size: 271, 281
+  orig: 271, 281
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 2, 2
+  size: 69, 33
+  orig: 69, 33
+  offset: 0, 0
+  index: -1
+Hair
+  rotate: false
+  xy: 951, 254
+  size: 221, 77
+  orig: 221, 77
+  offset: 0, 0
+  index: -1
+Heard
+  rotate: false
+  xy: 951, 333
+  size: 305, 170
+  orig: 305, 170
+  offset: 0, 0
+  index: -1
+Jaw
+  rotate: false
+  xy: 1258, 246
+  size: 158, 64
+  orig: 158, 64
+  offset: 0, 0
+  index: -1
+Left Arm
+  rotate: true
+  xy: 1497, 396
+  size: 107, 238
+  orig: 107, 238
+  offset: 0, 0
+  index: -1
+Left Ear
+  rotate: false
+  xy: 848, 187
+  size: 101, 73
+  orig: 101, 73
+  offset: 0, 0
+  index: -1
+Left Elbow
+  rotate: false
+  xy: 1418, 238
+  size: 74, 72
+  orig: 74, 72
+  offset: 0, 0
+  index: -1
+Left Feet
+  rotate: false
+  xy: 625, 89
+  size: 186, 89
+  orig: 186, 89
+  offset: 0, 0
+  index: -1
+Left Knees
+  rotate: false
+  xy: 1174, 259
+  size: 82, 72
+  orig: 82, 72
+  offset: 0, 0
+  index: -1
+Left Leg
+  rotate: true
+  xy: 1737, 411
+  size: 92, 249
+  orig: 92, 249
+  offset: 0, 0
+  index: -1
+Left Thigh
+  rotate: true
+  xy: 380, 17
+  size: 203, 243
+  orig: 203, 243
+  offset: 0, 0
+  index: -1
+Letf Finger 1
+  rotate: true
+  xy: 1795, 249
+  size: 51, 74
+  orig: 51, 74
+  offset: 0, 0
+  index: -1
+Letf Finger 2
+  rotate: true
+  xy: 1727, 175
+  size: 51, 73
+  orig: 51, 73
+  offset: 0, 0
+  index: -1
+Letf Finger 3
+  rotate: false
+  xy: 813, 105
+  size: 50, 73
+  orig: 50, 73
+  offset: 0, 0
+  index: -1
+Letf Forearm
+  rotate: false
+  xy: 625, 7
+  size: 191, 80
+  orig: 191, 80
+  offset: 0, 0
+  index: -1
+Letf Hand
+  rotate: true
+  xy: 1988, 413
+  size: 90, 42
+  orig: 90, 42
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: true
+  xy: 1494, 166
+  size: 134, 139
+  orig: 134, 139
+  offset: 0, 0
+  index: -1
+Right Arm
+  rotate: true
+  xy: 1748, 302
+  size: 107, 226
+  orig: 107, 226
+  offset: 0, 0
+  index: -1
+Right Elbow
+  rotate: false
+  xy: 1719, 228
+  size: 74, 72
+  orig: 74, 72
+  offset: 0, 0
+  index: -1
+Right Feet
+  rotate: false
+  xy: 951, 163
+  size: 186, 89
+  orig: 186, 89
+  offset: 0, 0
+  index: -1
+Right Finger 1
+  rotate: true
+  xy: 1871, 249
+  size: 51, 74
+  orig: 51, 74
+  offset: 0, 0
+  index: -1
+Right Finger 2
+  rotate: false
+  xy: 865, 112
+  size: 51, 73
+  orig: 51, 73
+  offset: 0, 0
+  index: -1
+Right Finger 3
+  rotate: false
+  xy: 1139, 179
+  size: 50, 73
+  orig: 50, 73
+  offset: 0, 0
+  index: -1
+Right Forearm
+  rotate: false
+  xy: 653, 180
+  size: 193, 80
+  orig: 193, 80
+  offset: 0, 0
+  index: -1
+Right Hand
+  rotate: false
+  xy: 1635, 184
+  size: 90, 42
+  orig: 90, 42
+  offset: 0, 0
+  index: -1
+Right Leg
+  rotate: true
+  xy: 1497, 302
+  size: 92, 249
+  orig: 92, 249
+  offset: 0, 0
+  index: -1
+Right Thigh
+  rotate: true
+  xy: 1258, 312
+  size: 191, 237
+  orig: 191, 237
+  offset: 0, 0
+  index: -1
+Right knees
+  rotate: false
+  xy: 1635, 228
+  size: 82, 72
+  orig: 82, 72
+  offset: 0, 0
+  index: -1
+Shell
+  rotate: false
+  xy: 2, 37
+  size: 376, 466
+  orig: 376, 466
+  offset: 0, 0
+  index: -1
