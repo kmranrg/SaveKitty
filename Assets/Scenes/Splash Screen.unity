@@ -636,6 +636,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7936279542423821136, guid: b988a68efc9fd82c5b011fa9a57ae0db,
+        type: 3}
+      propertyPath: sounds.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936279542423821136, guid: b988a68efc9fd82c5b011fa9a57ae0db,
+        type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 54ff425d0ad5b4f8f962c9004b8ca638, type: 3}
+    - target: {fileID: 7936279542423821136, guid: b988a68efc9fd82c5b011fa9a57ae0db,
+        type: 3}
+      propertyPath: sounds.Array.data[3].name
+      value: SoulSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936279542423821136, guid: b988a68efc9fd82c5b011fa9a57ae0db,
+        type: 3}
+      propertyPath: sounds.Array.data[3].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936279542423821136, guid: b988a68efc9fd82c5b011fa9a57ae0db,
+        type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7936279542423821137, guid: b988a68efc9fd82c5b011fa9a57ae0db,
         type: 3}
       propertyPath: m_Name
