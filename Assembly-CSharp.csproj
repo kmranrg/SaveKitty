@@ -72,6 +72,8 @@
      <Compile Include="Assets\Script\EnemyMovement.cs" />
      <Compile Include="Assets\Script\GameSession.cs" />
      <Compile Include="Assets\Script\Gate.cs" />
+     <Compile Include="Assets\Script\GateLevel2.cs" />
+     <Compile Include="Assets\Script\GateLevel3.cs" />
      <Compile Include="Assets\Script\MouseHover.cs" />
      <Compile Include="Assets\Script\Player.cs" />
      <Compile Include="Assets\Script\SceneLoader.cs" />
