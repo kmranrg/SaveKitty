@@ -15,6 +15,11 @@ a game made on Unity Gaming Engine
 + Now, right click on this file `SaveKitty_Setup_(x86_34).zip` and choose `Run as administrator` and install the application
 + Finally, launch the `SaveKitty` game
 
+## How to Play?
++ Use `left arrow` to go to the left direction
++ Use `right arrow` to go to the right direction
++ Use `space bar` to jump
+
 ## Game Screenshots
 ![ss1](https://github.com/kmranrg/SaveKitty/blob/main/Screenshots/ss1.png) ![ss2](https://github.com/kmranrg/SaveKitty/blob/main/Screenshots/ss2.png)
 
