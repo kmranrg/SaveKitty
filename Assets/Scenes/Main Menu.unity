@@ -121,42 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!84 &8240729
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 960
-  m_Height: 540
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 1
-  m_ColorFormat: 8
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
---- !u!43 &69665174
+--- !u!43 &52802344
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -534,7 +499,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8240729}
+  m_TargetTexture: {fileID: 1775271651}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -617,7 +582,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292980792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.48, y: 2.35, z: 0}
+  m_LocalPosition: {x: 1.48, y: 2.93, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1481573267}
@@ -723,7 +688,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1525903694}
+  - {fileID: 1720096630}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -751,7 +716,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308499836}
-  m_Mesh: {fileID: 69665174}
+  m_Mesh: {fileID: 52802344}
 --- !u!1001 &382509794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -763,6 +728,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Options
+      objectReference: {fileID: 0}
+    - target: {fileID: 2567364960536195009, guid: e095e17127fbfef7b88f2dff1874344c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2567364960536195014, guid: e095e17127fbfef7b88f2dff1874344c,
         type: 3}
@@ -1173,7 +1143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844524121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.88, y: 2.15, z: 0}
+  m_LocalPosition: {x: 1.69, y: 2.79, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1481573267}
@@ -1647,7 +1617,7 @@ PrefabInstance:
     - target: {fileID: 2567364960536195014, guid: e095e17127fbfef7b88f2dff1874344c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -300
+      value: -183
       objectReference: {fileID: 0}
     - target: {fileID: 2567364960536195014, guid: e095e17127fbfef7b88f2dff1874344c,
         type: 3}
@@ -1677,7 +1647,7 @@ PrefabInstance:
     - target: {fileID: 2567364960583737597, guid: e095e17127fbfef7b88f2dff1874344c,
         type: 3}
       propertyPath: m_text
-      value: Quit
+      value: '> Quit'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e095e17127fbfef7b88f2dff1874344c, type: 3}
@@ -1963,7 +1933,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185826655}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.83, y: 0.47, z: 0}
+  m_LocalPosition: {x: -4.53, y: 0.92, z: 0}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_Children: []
   m_Father: {fileID: 1481573267}
@@ -2329,47 +2299,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!21 &1525903694
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit/WaterShader
-  m_Shader: {fileID: 4800000, guid: c92e59676266d42a2b78d3ca6e22e48b, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DispMap1:
-        m_Texture: {fileID: 2800000, guid: a9fbbbcea15ad42e59952d711697d068, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DispMap2:
-        m_Texture: {fileID: 2800000, guid: 2f4456dc005e6469a847b92eabb01774, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 8240729}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ReflDistort: 0.1
-    - _WaterHeight: 0.5
-    - _WaterSpeed1: 0.4
-    - _WaterSpeed2: 0.2
-    - _distPerspectiveLink: 1
-    - _transparency: 1
-    - _xPositionOffset: 1
-    m_Colors:
-    - _WaterTint: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1588691823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2395,8 +2324,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1588691823}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.1, y: 1.55, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.8, y: 1.61, z: 0}
+  m_LocalScale: {x: 1, y: 1.0917177, z: 1}
   m_Children: []
   m_Father: {fileID: 1481573267}
   m_RootOrder: 2
@@ -2532,6 +2461,82 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!21 &1720096630
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit/WaterShader
+  m_Shader: {fileID: 4800000, guid: c92e59676266d42a2b78d3ca6e22e48b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DispMap1:
+        m_Texture: {fileID: 2800000, guid: a9fbbbcea15ad42e59952d711697d068, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DispMap2:
+        m_Texture: {fileID: 2800000, guid: 2f4456dc005e6469a847b92eabb01774, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 1775271651}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ReflDistort: 0.1
+    - _WaterHeight: 0.5
+    - _WaterSpeed1: 0.4
+    - _WaterSpeed2: 0.2
+    - _distPerspectiveLink: 1
+    - _transparency: 1
+    - _xPositionOffset: 1
+    m_Colors:
+    - _WaterTint: {r: 1, g: 1, b: 1, a: 1}
+--- !u!84 &1775271651
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 960
+  m_Height: 540
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 1
+  m_ColorFormat: 8
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1954236781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2543,6 +2548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Load Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 2567364960536195009, guid: e095e17127fbfef7b88f2dff1874344c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2567364960536195014, guid: e095e17127fbfef7b88f2dff1874344c,
         type: 3}
@@ -2762,7 +2772,7 @@ PrefabInstance:
     - target: {fileID: 2567364960536195014, guid: e095e17127fbfef7b88f2dff1874344c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -59
+      value: -87
       objectReference: {fileID: 0}
     - target: {fileID: 2567364960536195014, guid: e095e17127fbfef7b88f2dff1874344c,
         type: 3}
@@ -2784,5 +2794,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 879929389}
+    - target: {fileID: 2567364960583737597, guid: e095e17127fbfef7b88f2dff1874344c,
+        type: 3}
+      propertyPath: m_text
+      value: '> Play'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e095e17127fbfef7b88f2dff1874344c, type: 3}
