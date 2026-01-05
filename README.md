@@ -1,24 +1,42 @@
 # SaveKitty
-a game made on Unity Gaming Engine
+[![Get it from the Snap Store](https://snapcraft.io/en/dark/install.svg)](https://snapcraft.io/savekitty)
+
+**SaveKitty** is a calm 2D platformer about rescuing a lost kitty through serene,
+atmospheric worlds.  
+Built using the **Unity Game Engine**, the game focuses on gentle pacing,
+simple mechanics, and a relaxing experience.
 
 ![AppLogo](https://github.com/kmranrg/SaveKitty/blob/main/Assets/Assets/UI/AppLogo.png)
 
-## How to run the game?
+## Features
 
-### Instructions for Linux:
-+ Go to the folder `Builds` -> `Linux` -> `x86_64`
-+ Then click on `SaveKitty.x86_64` and enjoy the game
+- Calm and atmospheric 2D platformer gameplay  
+- Hand-crafted levels with gentle pacing  
+- Minimalist controls and smooth movement  
+- Relaxing visuals and soothing sound effects  
+- Built with Unity for cross-platform support
 
-### Instructions for Windows:
-+ Go to the folder `Builds` -> `Windows` -> `Installer`
-+ Now, extract the file `SaveKitty_Setup_(x86_34).zip`
-+ Now, right click on this file `SaveKitty_Setup_(x86_34).zip` and choose `Run as administrator` and install the application
-+ Finally, launch the `SaveKitty` game
+## How to Run the Game
 
-## How to Play?
-+ Use `left arrow` to go to the left direction
-+ Use `right arrow` to go to the right direction
-+ Use `space bar` to jump
+### Linux
+1. Navigate to the folder: `Builds → Linux → x86_64`
+2. Run the executable: `SaveKitty.x86_64`
+3. Enjoy the game!
+
+> 💡 Alternatively, you can install SaveKitty directly from the **[Snap Store](https://snapcraft.io/savekitty)**.
+
+### Windows
+1. Go to: `Builds → Windows → Installer`
+2. Extract the file: `SaveKitty_Setup_(x86_64).zip`
+3. Right-click the extracted installer and choose **Run as administrator**
+4. Complete the installation and launch **SaveKitty**
+
+## How to Play
+- **Left Arrow** → Move Left  
+- **Right Arrow** → Move Right  
+- **Space Bar** → Jump  
+
+The controls are intentionally simple to keep the gameplay accessible and relaxing.
 
 ## Game Screenshots
 ![ss1](https://github.com/kmranrg/SaveKitty/blob/main/Screenshots/ss1.png) ![ss2](https://github.com/kmranrg/SaveKitty/blob/main/Screenshots/ss2.png)
@@ -30,3 +48,8 @@ a game made on Unity Gaming Engine
 ![ss7](https://github.com/kmranrg/SaveKitty/blob/main/Screenshots/ss7.png) ![ss8](https://github.com/kmranrg/SaveKitty/blob/main/Screenshots/ss8.png)
 
 ![ss9](https://github.com/kmranrg/SaveKitty/blob/main/Screenshots/ss9.png) ![ss10](https://github.com/kmranrg/SaveKitty/blob/main/Screenshots/ss10.png)
+
+## 📦 Distribution
+
+- 🟢 **Snap Store**: https://snapcraft.io/savekitty  
+- 🧩 Local builds available for Linux and Windows
