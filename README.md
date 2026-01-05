@@ -38,10 +38,10 @@ simple mechanics, and a relaxing experience.
 
 The controls are intentionally simple to keep the gameplay accessible and relaxing.
 
-## 📦 Distribution
+## Distribution
 
-- 🟢 **Snap Store**: https://snapcraft.io/savekitty  
-- 🧩 Local builds available for Linux and Windows
+- **Snap Store**: https://snapcraft.io/savekitty  
+- Local builds available for Linux and Windows
 
 ## Game Screenshots
 ![ss1](https://github.com/kmranrg/SaveKitty/blob/main/Screenshots/ss1.png) ![ss2](https://github.com/kmranrg/SaveKitty/blob/main/Screenshots/ss2.png)
