@@ -1,0 +1,57 @@
+name: savekitty
+title: SaveKitty
+base: core22
+version: '1.0'
+summary: A 2D platformer about saving a kitty
+description: |
+  SaveKitty is a 2D platformer game built with Unity.
+  
+  Navigate through atmospheric levels, dodge obstacles, and save the kitty!
+  
+  Controls:
+  * Left/Right Arrow: Move
+  * Space Bar: Jump
+
+license: BSD-3-Clause
+source-code: https://github.com/kmranrg/SaveKitty
+website: https://github.com/kmranrg/SaveKitty
+issues: https://github.com/kmranrg/SaveKitty/issues
+contact: https://github.com/kmranrg
+
+grade: stable
+confinement: strict
+compression: lzo
+
+architectures:
+  - build-on: amd64
+
+apps:
+  savekitty:
+    command: SaveKitty.x86_64
+    extensions: [gnome]
+    plugs:
+      - opengl
+      - audio-playback
+      - home
+      - joystick
+      - network
+
+parts:
+  game:
+    plugin: dump
+    source: x86_64
+    
+    override-build: |
+      craftctl default
+      chmod +x $CRAFT_PART_INSTALL/SaveKitty.x86_64
+      chmod +x $CRAFT_PART_INSTALL/UnityPlayer.so
+      chmod +x $CRAFT_PART_INSTALL/UnityPlayer_s.debug
+
+    stage-packages:
+      - libgl1
+      - libglu1-mesa
+      - libxcursor1
+      - libxrandr2
+      - libxi6
+      - libasound2
+      - libasound2-plugins
