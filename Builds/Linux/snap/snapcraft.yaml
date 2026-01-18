@@ -1,7 +1,8 @@
 name: savekitty
 title: SaveKitty
 base: core22
-version: '1.0'
+version: '1.0.1'
+icon: gui/savekitty.png
 summary: A 2D platformer about saving a kitty
 description: |
   SaveKitty is a 2D platformer game built with Unity.
@@ -29,6 +30,7 @@ apps:
   savekitty:
     command: SaveKitty.x86_64
     extensions: [gnome]
+    desktop: gui/savekitty.desktop
     plugs:
       - opengl
       - audio-playback
@@ -48,10 +50,11 @@ parts:
       chmod +x $CRAFT_PART_INSTALL/UnityPlayer_s.debug
 
     stage-packages:
-      - libgl1
-      - libglu1-mesa
-      - libxcursor1
-      - libxrandr2
-      - libxi6
       - libasound2
       - libasound2-plugins
+  
+  support-files:
+    plugin: dump
+    source: gui
+    organize:
+      'savekitty.desktop': gui/savekitty.desktop
