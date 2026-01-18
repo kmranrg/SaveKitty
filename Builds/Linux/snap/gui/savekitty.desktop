@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=SaveKitty
+Comment=A 2D platformer about saving a kitty
+Exec=savekitty
+Icon=${SNAP}/meta/gui/savekitty.png
+Terminal=false
+Categories=Game;
+StartupWMClass=SaveKitty.x86_64
